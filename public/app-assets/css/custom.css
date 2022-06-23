@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'CairoWebFont';
+    src: url('../fonts/ArbFONTS-Cairo-SemiBold-1.ttf') format('ttf'),
+        url('../fonts/ArbFONTS-Cairo-SemiBold-1.ttf') format('truetype');
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,a,li {
+    font-family: 'CairoWebFont', sans-serif !important;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
